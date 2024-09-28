@@ -59,3 +59,21 @@ function closePopUp() {
         console.log(closeIcon.classList);
       console.log(closePopUp);
 }
+/*nav-btn*/
+
+const openNav = document.getElementById('bars');
+
+const sideBar = document.querySelectorAll('.rSide-Nav');
+
+const closeNav = document.getElementById('x-mark');
+
+    openNav.addEventListener('click',()=>{
+        sideBar.classList.add("openNavAll");
+        console.log("open");
+    })
+
+    closeNav.addEventListener('click',()=>{
+        sideBar.classList.remove("openNavAll");
+       
+    })
+   
