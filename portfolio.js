@@ -63,13 +63,16 @@ function closePopUp() {
 
 const openNav = document.getElementById('bars');
 
-const sideBar = document.querySelectorAll('.rSide-Nav');
+const sideBar = document.querySelector('.rSide-Nav');
 
 const closeNav = document.getElementById('x-mark');
 
     openNav.addEventListener('click',()=>{
+       
         sideBar.classList.add("openNavAll");
+
         console.log("open");
+        
     })
 
     closeNav.addEventListener('click',()=>{
