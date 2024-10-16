@@ -4,12 +4,12 @@
     padding: 0px;
     border:none;
     font-family: 'Poppins', 'san-serif';
-    overflow-x:hidden;
+    
     
 }
 html {
     scroll-behavior: smooth;
-
+    overflow-x: hidden;
 }
 .navbar{
     display:flex;
@@ -411,7 +411,7 @@ H4{
     .works-header{
         margin-top: 5rem;
     }
-  
+   
 }
 
 .footer{
@@ -458,7 +458,7 @@ H5{
 }
 .gmail-sms{
     
-    font-size:3.5vw;
+    font-size:15px;
     color:rgb(228, 200, 152);
 }
 #social-btn-footer i:hover{
