@@ -413,6 +413,9 @@ H4{
     .works-header{
         margin-top: 5rem;
     }
+    body {
+        overflow-x: auto;
+    }
    
 }
 
